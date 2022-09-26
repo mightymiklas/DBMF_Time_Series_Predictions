@@ -1,7 +1,7 @@
 # DBMF_Time_Series_Predictions
 A LSTM model for iMGP DBi Managed Futures Strategy ETF
 
-##Data Source: 
+## Data Source: 
 [Yahoo](https://finance.yahoo.com/quote/DBMF/history?period1=1557273600&period2=1664150400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)
 
 
