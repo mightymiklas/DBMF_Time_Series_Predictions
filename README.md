@@ -28,6 +28,8 @@ As you can see, over 200 epochs, the model decreases its validation loss, which 
 
 The model has near perfect prediction which implies a number of things that were done incorrectly. Using prices as inputs/targets does not provide reliable results in real world setting in beating the random walk hypotehesis which dictates that stock prices are unpredictable. LSTM models are meant for sequences, however stock prices are non-sequential. The use of min,max scaler on stock prices is not a reliable modal as stock prices have no fixed max range, but are infinite. Standardization is the preferred method for computing models, on daily % returns than stock prices. 
 
+The other issue which pertains to said data is that working with this particular ticker ($DBMF), there is only 3 years of data to work with, which limits the amount of data our models could learn from. 
+
 Next steps... 
 
 				
