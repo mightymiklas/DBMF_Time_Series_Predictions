@@ -32,6 +32,8 @@ The other issue which pertains to said data is that working with this particular
 
 Next steps... 
 
+Run the LSTM model using a standardization scaler and daily % returns rather than stock prices. Could also be informative to look at minute-by-minute returns, as that would provide a more granular view of said data. 
+
 				
 ## Installation Guide
 
